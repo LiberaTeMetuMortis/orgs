@@ -1,0 +1,82 @@
+#+title: Scripts
+
+#+begin_src typescript :results output
+for(let i = 1; i <= 5; i++){
+    console.log(i)
+}
+#+end_src
+
+#+RESULTS:
+: 1
+: 2
+: 3
+: 4
+: 5
+
+
+#+begin_src java :results output
+for(int i = 1; i <= 5; i++){
+    System.out.println(i);
+}
+#+end_src
+
+#+RESULTS:
+: 1
+: 2
+: 3
+: 4
+: 5
+
+
+#+begin_src kotlin :results output
+for(i in 1..5){
+    println(i)
+}
+#+end_src
+
+#+RESULTS:
+: 1
+: 2
+: 3
+: 4
+: 5
+
+
+#+begin_src python :results output
+for i in range(1,6):
+    print(i)
+#+end_src
+
+#+RESULTS:
+: 1
+: 2
+: 3
+: 4
+: 5
+
+
+#+begin_src ruby :results output
+for i in 1..5 do
+  puts i
+end
+#+end_src
+
+#+RESULTS:
+: 1
+: 2
+: 3
+: 4
+: 5
+
+
+#+begin_src nim :results output
+for i in 1..5:
+  echo i
+#+end_src
+
+#+RESULTS:
+: 1
+: 2
+: 3
+: 4
+: 5
